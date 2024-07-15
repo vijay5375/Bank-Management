@@ -1,20 +1,17 @@
-# Bank-Management
-In this project there a three basic portions:
-1-admin
-2-customer
-3-staff
-so all these have different levels of authorizations like 
+# Bank Management System
 
-1-customer can :
-perform transaction and like that
+This project comprises three main components, each with distinct levels of authorization:
 
-3-staff can:
-add amount in account
-deduct amount from account
-request to open account
+## 1. Admin
+- Can view all accounts.
+- Can read details of all accounts.
+- Can grant permission to open new accounts.
+- Holds credentials for all accounts.
 
-3-admin can:
-see all accounts 
-can read all accounts
-can give permission to open account
-have cresidentials of all accounts
+## 2. Customer
+- Can perform transactions.
+
+## 3. Staff
+- Can add amounts to accounts.
+- Can deduct amounts from accounts.
+- Can request to open new accounts.
